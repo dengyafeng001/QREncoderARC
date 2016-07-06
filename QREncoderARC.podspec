@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source = { :git => "https://github.com/dengyafeng001/QREncoderARC.git", :tag => "1.0.0" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "QREncoderARC/*.{h,m}"
+  s.source_files  = "QREncoderARC/**/*"
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
 end
